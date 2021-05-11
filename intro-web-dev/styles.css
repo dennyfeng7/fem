@@ -1,82 +1,94 @@
-h1, h2, p {
-    font-family: 'Times New Roman', Times, serif;
-    
+* {
+    box-sizing: border-box;
 }
 
-h1, h2 {
+.main-brand {
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 60px;
+}
+
+header {
+    border-bottom: 3px solid #333;
+}
+
+.story-img {
+    width: 100%;
+}
+
+.story-title {
+    font-weight: normal;
     font-style: italic;
+    font-size: 30px;
+    margin: 15px 0;
     text-align: center;
 }
 
-h1 {
-    display: block;
-    font-weight: lighter;
-    font-size: 50px;
+.story-text {
+    line-height: 1.2;
+    font-size: 18px;
 }
 
-p {
-    padding-left: .75em;
+.row {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    border-bottom: 3px solid #333;
+    border-left: 1px solid #333;
 }
 
-.small {
+.story {
+    border-right: solid 1px #333;
+    padding: 5px;
+}
+
+.quarter {
     width: 25%;
 }
 
-.medium {
+.half {
     width: 50%;
 }
 
-.picture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.three-quarter {
+    width: 75%;
 }
 
+.nav-list {
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
-.boxgrid {
-    display: flex;
-    border: solid;
+.nav-item {
     width: 100%;
-    align-items: stretch;
-}
-
-.box {
-    border: solid;
-    border-width: 1px;
-}
-
-.list {
+    flex: 1;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: normal;
-    justify-content: normal;
-    list-style-type: none;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 20px;
+    color: #555;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px #333;
 }
 
-.politics {
-    background-color: yellow;
-    
+
+.nav-item a {
+    text-decoration: none;
+    color: #555;
 }
 
-.technology {
-    background-color: cyan;
+.nav-item a:hover {
+    text-decoration: underline;
 }
 
-.local {
-    background-color: forestgreen;
-}
-
-.opinion {
-    background-color: blue;
-}
-
-.sports {
-    background-color: purple;
-}
-
-/*
-display flexx
-flex direction stretch maybe
-make the title the same class
-*/
+.nav-item:nth-child(1) { background-color:#ffeaa7; }
+.nav-item:nth-child(2) { background-color:#81ecec; }
+.nav-item:nth-child(3) { background-color:#55efc4; }
+.nav-item:nth-child(4) { background-color:#74b9ff; }
+.nav-item:nth-child(5) { background-color:#a29bfe; }
