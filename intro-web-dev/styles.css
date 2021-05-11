@@ -8,10 +8,22 @@
     font-weight: normal;
     font-family: 'Great Vibes', cursive;
     margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
 }
 
 header {
     border-bottom: 3px solid #333;
+}
+
+.denny {
+    text-align: center;
 }
 
 .story-img {
@@ -41,7 +53,7 @@ header {
 
 .story {
     border-right: solid 1px #333;
-    padding: 5px;
+    padding: 15px;
 }
 
 .quarter {
