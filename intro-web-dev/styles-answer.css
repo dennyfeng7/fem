@@ -1,0 +1,27 @@
+.main-brand {
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.story-title {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.story {
+    border: 1px solid #333;
+    padding: 5px;
+
+}
